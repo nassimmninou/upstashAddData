@@ -83,11 +83,11 @@ def get_text_chunks(text):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat with multiple PDFs",
+    st.set_page_config(page_title="Add data to OrgocatAI",
                        page_icon=":books:")
     st.write(css, unsafe_allow_html=True)
 
-    st.header("Chat with multiple PDFs :books:")
+    st.header("Add data to OrgocatAI :books:")
     st.subheader("Your documents")
     pdf_docs = st.file_uploader(
             "Upload your PDFs here and click on 'Process'", accept_multiple_files=True)
